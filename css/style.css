@@ -253,12 +253,24 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
-.hero .container-fluid {
-    padding: 0;
+.fresh{
+    height: 100%;
 }
-
+.hero-textss{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+}
 .hero .hero-image {
     position: relative;
     text-align: right;
@@ -274,11 +286,10 @@ a:focus {
     position: relative;
     padding-left: 75px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
 .hero .hero-text p {
     color: #ffffff;
     font-size: 25px;
